@@ -2,7 +2,7 @@ import rss, {pagesGlobToRssItems} from '@astrojs/rss';
 
 export async function GET(context) {
   return rss({
-    title: 'nicdun.dev - blog',
+    title: 'romando purba - blog',
     description: 'Crafting the Digital Future with Web Development Wonders',
     site: context.site,
     items: await pagesGlobToRssItems(
