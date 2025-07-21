@@ -1,15 +1,15 @@
 ---
 layout: ../../layouts/post.astro
-title: "This is the first post of my new Astro blog."
+title: "REST APIs with Actix Web in Rust"
 pubDate: 2023-12-23
-description: "This is the first post of my new Astro blog."
-author: "nicdun"
+description: "Actix Web is a compact, efficient, and robust asynchronous web framework in Rust, designed for creating APIs and web applications. It leverages Tokio and the futures crate internally. Actix Web also offers a synchronous API that integrates smoothly with its asynchronous counterpart. Additionally, it includes built-in support for logging, static file serving, TLS, HTTP/2, and various other features."
+author: "romando"
 isPinned: true
-excerpt: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
+excerpt: Actix Web is a compact, efficient, and robust asynchronous web framework in Rust, designed for creating APIs and web applications. It leverages Tokio and the futures crate internally. Actix Web also offers a synchronous API that integrates smoothly with its asynchronous counterpart. Additionally, it includes built-in support for logging, static file serving, TLS, HTTP/2, and various other features.
 image:
   src:
   alt:
-tags: ["tag4", "tag1", "tag2", "tag3"]
+tags: ["rust", "actix-web", "api", "web-development"]
 ---
 
 # REST APIs with Actix Web in Rust
