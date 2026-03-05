@@ -7,10 +7,11 @@ author: "romando"
 isPinned: true
 excerpt: "A deep dive into building a real-time data synchronization service between two PostgreSQL databases using Rust, Tokio, SQLx, and PostgreSQL's LISTEN/NOTIFY mechanism. We explore trigger-based conditional notifications, async broadcast channels, multi-stage Docker builds, and graceful permission handling in production environments."
 image:
-  src:
-  alt:
+  src: 'realtime-database-synchronization.mage.png'
+  alt: 'cover'
 tags: ["rust", "postgresql", "database-sync", "tokio", "sqlx", "listen-notify", "docker", "real-time"]
 ---
+![cover](realtime-database-synchronization.mage.png)
 # Building Real-Time Database Synchronization with Rust and PostgreSQL LISTEN/NOTIFY
 
 > How we built a lightweight, production-ready service that synchronizes data between two PostgreSQL databases in real time — using Rust, `tokio`, `sqlx`, and PostgreSQL's built-in LISTEN/NOTIFY mechanism.
